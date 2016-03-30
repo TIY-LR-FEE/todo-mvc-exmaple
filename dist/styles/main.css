@@ -1,0 +1,23 @@
+#todos .completed {
+  text-decoration: line-through; }
+
+#todos .completed {
+  text-decoration: line-through; }
+
+article {
+  margin: 0 0 2rem;
+  padding: 0 0 2rem;
+  border-bottom: 1px dashed #000; }
+  article h1 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin: 0; }
+  article h2 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem; }
+  article h2:before {
+    content: "by "; }
+  article h3 {
+    font-size: 1.4rem; }
+  article .comment h1 {
+    font-size: 1.1rem; }

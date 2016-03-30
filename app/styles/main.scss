@@ -1,0 +1,36 @@
+@import "variables";
+
+@import "base";
+@import "layout";
+@import "modules";
+
+article {
+  margin: 0 0 2rem;
+  padding: 0 0 2rem;
+  border-bottom: 1px dashed #000;
+
+  h1 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+  }
+
+  h2:before {
+    content: "by ";
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  .comment {
+    h1 {
+      font-size: 1.1rem;
+    }
+  }
+}
